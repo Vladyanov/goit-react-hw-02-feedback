@@ -10,6 +10,10 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif, monospace;
+}
+
+#root {
+  margin: 0 auto;
+  width: 500px;
 }

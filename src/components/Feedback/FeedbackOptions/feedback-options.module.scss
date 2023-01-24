@@ -1,0 +1,19 @@
+.btn {
+  display: inline-block;
+  border-radius: 10px;
+  cursor: pointer;
+  width: 120px;
+  height: 40px;
+  outline: none;
+  font-size: 18px;
+
+  &:active {
+    background-color: #b4b4b4;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+
+  &:not(:last-child) {
+    margin-right: 40px;
+  }
+}
